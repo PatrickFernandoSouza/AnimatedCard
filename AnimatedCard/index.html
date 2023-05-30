@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Animated Card</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cards">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Make Up</h3>
+                <img src="https://media.istockphoto.com/id/1331637318/pt/foto/portrait-of-young-afro-woman-with-bright-make-up.jpg?s=612x612&w=0&k=20&c=PfDXmcmtVgQk1Tiue5BBH0qGeUIVSHSFsVLy4qkZtJk=" alt="">
+                <a href="#">Start</a>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Skincare</h3>
+                <img src="https://www.coisasdediva.com.br/wp-content/uploads/2019/04/pele-730x520.jpg" alt="">
+                <a href="#">Start</a>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Nail Designer</h3>
+                <img src="https://i.pinimg.com/550x/e9/88/a7/e988a7ca7da63b5c5ed4e451cf4050c9.jpg" alt="">
+                <a href="#">Start</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-til.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".cards"), {
+            max: 25,
+            speed: 50,
+            glare: true,
+            "max-glare": 1,
+        }
+        );
+    </script>
+</body>
+
+</html>
